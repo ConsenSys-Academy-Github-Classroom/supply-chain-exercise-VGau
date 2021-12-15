@@ -96,7 +96,7 @@ contract SupplyChain {
     _;
   }
 
-  constructor() public {
+  constructor() {
     // 1. Set the owner to the transaction sender
     owner = msg.sender;
     // 2. Initialize the sku count to 0. Question, is this necessary?
